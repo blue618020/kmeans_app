@@ -10,6 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def main():
+    st.title('안녕하세요')
     st.title('K-Means 클러스터링 앱')
 
     # csv 파일 업로드
