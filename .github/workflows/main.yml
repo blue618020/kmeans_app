@@ -21,7 +21,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           script: |
-            cd Github/kmeans_app                   
+            cd Github/kmeans_app/                
             git pull https://${{ secrets.GIT_USER }}:${{ secrets.GIT_PASSWORD }}@github.com/blue618020/kmeans_app.git
 
   # 깃허브 레파지토리가 프라이빗으로 만들어져 있을때. 
